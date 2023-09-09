@@ -1245,6 +1245,7 @@ function openwebrx_init() {
     digimodes_init();
     initPanels();
     $('#openwebrx-panel-receiver').demodulatorPanel();
+    initKpod();
     window.addEventListener("resize", openwebrx_resize);
     bookmarks = new BookmarkBar();
     initSliders();

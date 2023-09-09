@@ -135,6 +135,7 @@ class CompiledAssetsController(GzipMixin, ModificationAwareController):
             "lib/FrequencyDisplay.js",
             "lib/MessagePanel.js",
             "lib/Js8Threads.js",
+            "lib/Kpod.js",
             "lib/Modes.js",
             "lib/MetaPanel.js",
         ],
